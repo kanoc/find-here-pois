@@ -20,6 +20,7 @@ app.add_middleware(
         "http://localhost",
         "http://localhost:3000",
         "http://localhost:9000",
+        "https://find-here-pois-client.herokuapp.com"
     ],
     allow_credentials=True,
     allow_methods=["*"],
