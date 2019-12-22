@@ -1,0 +1,7 @@
+-r requirements.in
+requests
+coverage
+pytest
+pytest-dotenv
+flake8
+mypy

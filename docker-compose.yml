@@ -1,0 +1,14 @@
+version: '3'
+services:
+  api:
+    container_name: find-here-pois-api
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "9000:9000"
+  client:
+    container_name: find-here-pois-client
+    build: ./client
+    ports:
+      - "3000:3000"
