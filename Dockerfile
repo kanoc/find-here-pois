@@ -2,7 +2,7 @@ FROM python:3.7
 MAINTAINER Csaba Szotyori <kanocspam@gmail.com>
 
 ENV PYTHONUNBUFFERED 1
-RUN mkdir -p /opt/services/api
+RUN mkdir -p /opt/services/app
 COPY tasks.py setup.py requirements.in requirements.txt /opt/services/app/
 COPY api /opt/services/app/api/
 

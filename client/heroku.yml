@@ -1,5 +1,0 @@
-build:
- docker:
-   web: ./client/Dockerfile
-run:
-  web: serve -l $PORT -s build
