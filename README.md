@@ -10,6 +10,11 @@ Make sure you have installed:
 git clone --recurse-submodules https://github.com/kanoc/find-here-pois.git
 ```
 
+## Demo
+
+* Client: https://find-here-pois-client.herokuapp.com/
+* API: https://find-here-pois-api.herokuapp.com/redoc
+
 ## Usage
 
 1. Create an `.env` file containing
