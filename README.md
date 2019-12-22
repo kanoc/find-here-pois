@@ -6,16 +6,21 @@ Make sure you have installed:
 
 ## Usage
 
-1. Fire it up the services
+1. Create an `.env` file containing
+```.env
+HERE_REST_APP_API_KEY=your-here-rest-api-key
+```
+
+2. Fire it up the services
 ```bash
 $ docker-compose up -d
 ```
 
-2. Browse to `localhost:3000` to interact with the client.
+3. Browse to `localhost:3000` to interact with the client.
 
-3. Browse to `localhost:9000/redoc` or `localhost:9000/docs` for the API docs.
+4. Browse to `localhost:9000/redoc` or `localhost:9000/docs` for the API docs.
 
-4. Follow the logs across all running services
+5. Follow the logs across all running services
 ```bash
 $ docker-compose logs -f
 ```
