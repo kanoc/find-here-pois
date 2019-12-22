@@ -9,6 +9,8 @@ services:
       - "9000:9000"
   client:
     container_name: find-here-pois-client
-    build: ./client
+    build:
+      context: ./client
+      dockerfile: Dockerfile.local
     ports:
       - "3000:3000"
