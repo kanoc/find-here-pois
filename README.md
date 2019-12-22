@@ -4,6 +4,12 @@ Make sure you have installed:
  * ``docker`` (tested with v18.09.7)
  * ``docker-compose`` (tested with v1.17.1)
 
+## Clone the repo
+
+```bash
+git clone --recurse-submodules https://github.com/kanoc/find-here-pois.git
+```
+
 ## Usage
 
 1. Create an `.env` file containing
