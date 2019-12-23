@@ -16,6 +16,9 @@ git clone --recurse-submodules https://github.com/kanoc/find-here-pois.git
 * Client: https://find-here-pois-client.herokuapp.com/
 * API: https://find-here-pois-api.herokuapp.com/redoc or https://find-here-pois-api.herokuapp.com/docs
 
+**Note**: Both the client and API are running on free tier dynos (are shut down automatically if not used for 30 min),
+hence it might take up to 20 seconds until they get fired up on first access.
+
 ## Usage
 
 1. Create an `.env` file (in the repo root folder) containing
