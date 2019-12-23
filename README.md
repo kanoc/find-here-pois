@@ -3,6 +3,7 @@
 Make sure you have installed:
  * ``docker`` (tested with v18.09.7)
  * ``docker-compose`` (tested with v1.17.1)
+ * ``git`` (tested with v2.17.1)
 
 ## Clone the repo
 
