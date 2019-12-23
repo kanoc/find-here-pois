@@ -14,11 +14,11 @@ git clone --recurse-submodules https://github.com/kanoc/find-here-pois.git
 ## Demo
 
 * Client: https://find-here-pois-client.herokuapp.com/
-* API: https://find-here-pois-api.herokuapp.com/redoc
+* API: https://find-here-pois-api.herokuapp.com/redoc or https://find-here-pois-api.herokuapp.com/docs
 
 ## Usage
 
-1. Create an `.env` file containing
+1. Create an `.env` file (in the repo root folder) containing
 ```.env
 HERE_REST_APP_API_KEY=your-here-rest-api-key
 ```
