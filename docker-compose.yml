@@ -5,6 +5,8 @@ services:
     build: .
     env_file:
       - .env
+    volumes:
+      - ./api:/opt/services/app/api
     ports:
       - "9000:9000"
   client:
